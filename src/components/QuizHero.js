@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Link from "next/link";
 
 export default function QuizHero({ data }) {
   const [quesIndex, setQuesIndex] = React.useState(0);
@@ -10,12 +11,12 @@ export default function QuizHero({ data }) {
 
   const handleNext = () => {
     if (selectedOption === null) {
-        toast.error("Please select an option", {
-            position: "top-center"
-        });
+      toast.error("Please select an option", {
+        position: "top-center",
+      });
     } else {
-        setQuesIndex((prevIndex) => prevIndex + 1);
-        setSelectedOption(null); 
+      setQuesIndex((prevIndex) => prevIndex + 1);
+      setSelectedOption(null);
     }
   };
 
@@ -23,9 +24,7 @@ export default function QuizHero({ data }) {
     setSelectedOption(optionIndex);
   };
 
-  const showResult = () => {
-    
-  }
+  const showResult = () => {};
 
   return (
     <main>
@@ -48,14 +47,21 @@ export default function QuizHero({ data }) {
       </form>
       {quesIndex < data.length - 1 && (
         <button
-          className={selectedOption === null ? "btn btn-neutral" : "btn btn-primary"}
+          className={
+            selectedOption === null ? "btn btn-neutral" : "btn btn-primary"
+          }
           onClick={handleNext}
         >
           Next
         </button>
       )}
       {quesIndex === data.length - 1 && (
-        <button className="btn btn-secondary" onClick={showResult}>Check Results</button>
+        <Link href="/result">
+          {" "}
+          <button className="btn btn-secondary" onClick={showResult}>
+            Check Results
+          </button>{" "}
+        </Link>
       )}
     </main>
   );
