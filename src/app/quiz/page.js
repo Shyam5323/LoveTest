@@ -5,7 +5,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 export default function Quiz() {
     return (
-        <main>
+        <main className="ml-2 mr-2">
             <ToastContainer />
             <Header />
             <QuizHero data = {data}/>

@@ -32,7 +32,7 @@ export default function QuizHero({ data }) {
       <h2 className="font-bold text-lg">{currentQuestion.question}</h2>
       <form>
         {currentQuestion.options.map((option, optionIndex) => (
-          <div key={optionIndex}>
+          <div className="block border m-2 p-2" key={optionIndex}>
             <label>
               <input
                 type="radio"
