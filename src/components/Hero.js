@@ -15,15 +15,7 @@ export default function Hero({ data }) {
         The True Love Quiz: Find Out If You've Met Your One True Love
       </h1>
       <div className="flex justify-start items-center mb-4">
-        <img
-          src="/shubham.png"
-          alt="profile"
-          className="w-[50px] h-[50px] rounded-full"
-        />
-        <div>
-          <p className="font-light text-xs">For Shubham Choudhary</p>
-          <p className="font-light text-xs"></p>
-        </div>
+
       </div>
       <Link href="/quiz">
         <button className=" btn btn-secondary">Start Quiz</button>
