@@ -1,124 +1,124 @@
 const questions = [
-    {
-      question: "Do you truly care for each other?",
-      options: [
-        { answer: "A. Very much" },
-        { answer: "B. I guess yes" },
-        { answer: "C. Of course, we have been friends for so long" }
-      ]
-    },
-    {
-      question: "Do you respect each other’s differences?",
-      options: [
-        { answer: "A. Yes" },
-        { answer: "B. Mostly we do, and if we don’t, we are very vocal about it, and it doesn’t affect our bonding" },
-        { answer: "C. I am not sure / I don’t think so" }
-      ]
-    },
-    {
-      question: "Are you together just for physical intimacy?",
-      options: [
-        { answer: "A. Maybe yes, we both are so passionate about it" },
-        { answer: "B. There’s no physical intimacy yet" },
-        { answer: "C. No, we do enjoy it, but that’s not the reason we are together" }
-      ]
-    },
-    {
-      question: "If you are in a tough spot, do you reach out to your partner first?",
-      options: [
-        { answer: "A. Yes" },
-        { answer: "B. Mostly, yes" },
-        { answer: "C. No" }
-      ]
-    },
-    {
-      question: "Can you talk about your problems openly with your partner, without the fear of being judged?",
-      options: [
-        { answer: "A. Absolutely" },
-        { answer: "B. Of course, what are friends for?" },
-        { answer: "C. No/ Not every time" }
-      ]
-    },
-    {
-      question: "Which of the following applies best to your relationship?",
-      options: [
-        { answer: "A. Love" },
-        { answer: "B. Friendship" },
-        { answer: "C. Passion" }
-      ]
-    },
-    {
-      question: "Do you enjoy making love to them?",
-      options: [
-        { answer: "A. You mean sex, right? Sex is so much fun!" },
-        { answer: "B. Totally, it feels surreal" },
-        { answer: "C. No, I don’t make love to them" }
-      ]
-    },
-    {
-      question: "Do you trust each other unconditionally?",
-      options: [
-        { answer: "A. Yes, just like soulmates do!" },
-        { answer: "B. Yes, and that’s never going to change!" },
-        { answer: "C. I am not sure / I don’t think so" }
-      ]
-    },
-    {
-      question: "Do you see a romantic, healthy, and fulfilling future with the person?",
-      options: [
-        { answer: "A. Absolutely" },
-        { answer: "B. About romantic, I am not sure, as there is no romance yet" },
-        { answer: "C. I am not sure" }
-      ]
-    },
-    {
-      question: "What aspect of your relationship do you appreciate the most?",
-      options: [
-        { answer: "A. Togetherness" },
-        { answer: "B. Intimacy" },
-        { answer: "C. Friendship" }
-      ]
-    },
-    {
-      question: "The first time you kissed your partner…",
-      options: [
-        { answer: "A. You felt the earth move" },
-        { answer: "B. You were very nervous" },
-        { answer: "C. Your heart was pounding so hard you could hear it" }
-      ]
-    },
-    {
-      question: "The most romantic song that could describe you and your partner is:",
-      options: [
-        { answer: "A. Beautiful Soul" },
-        { answer: "B. Without U" },
-        { answer: "C. Every time we touch" }
-      ]
-    },
-    {
-      question: "When you imagine your wedding, you-",
-      options: [
-        { answer: "A. Smile" },
-        { answer: "B. Wonder if you should just elope" },
-        { answer: "C. You don't imagine your wedding" }
-      ]
-    },
-    {
-      question: "Would you do anything for your partner?",
-      options: [
-        { answer: "A. 1 (strongly agree)" },
-        { answer: "B. 2" },
-        { answer: "C. 3 (strongly disagree)" }
-      ]
-    },
-    {
-      question: "Your partner loves you when you are happy, sad, healthy, sick…?",
-      options: [
-        { answer: "A. 1 (strongly agree)" },
-        { answer: "B. 2" },
-        { answer: "C. 3 (strongly disagree)" }
-      ]
-    }
-  ];
-  
-  export default questions;
+  {
+    question: "Do you feel a strong connection with your crush?",
+    options: [
+      { answer: "A. Very much" },
+      { answer: "B. I guess yes" },
+      { answer: "C. Of course, we have a great rapport" }
+    ]
+  },
+  {
+    question: "Do you admire your crush's unique qualities?",
+    options: [
+      { answer: "A. Yes" },
+      { answer: "B. Mostly we do, and if not, I appreciate their individuality" },
+      { answer: "C. I am not sure / I don’t think so" }
+    ]
+  },
+  {
+    question: "Are your feelings for your crush purely emotional or physical?",
+    options: [
+      { answer: "A. Maybe yes, I'm drawn to them physically" },
+      { answer: "B. There hasn't been any physical attraction yet" },
+      { answer: "C. No, I admire them for more than just physical reasons" }
+    ]
+  },
+  {
+    question: "If you're feeling down, would you confide in your crush first?",
+    options: [
+      { answer: "A. Yes" },
+      { answer: "B. Mostly, yes" },
+      { answer: "C. No" }
+    ]
+  },
+  {
+    question: "Can you openly share your thoughts and concerns with your crush?",
+    options: [
+      { answer: "A. Absolutely" },
+      { answer: "B. Of course, we're good friends" },
+      { answer: "C. No/ Not every time" }
+    ]
+  },
+  {
+    question: "What word best describes your feelings towards your crush?",
+    options: [
+      { answer: "A. Infatuation" },
+      { answer: "B. Admiration" },
+      { answer: "C. Attraction" }
+    ]
+  },
+  {
+    question: "Do you imagine being intimate with your crush?",
+    options: [
+      { answer: "A. You mean being close, right? I enjoy their company!" },
+      { answer: "B. Totally, I can envision it" },
+      { answer: "C. No, I haven't thought about it" }
+    ]
+  },
+  {
+    question: "Do you trust your crush?",
+    options: [
+      { answer: "A. Yes, completely!" },
+      { answer: "B. Yes, and I believe in them!" },
+      { answer: "C. I am not sure / I don’t think so" }
+    ]
+  },
+  {
+    question: "Can you picture a romantic future with your crush?",
+    options: [
+      { answer: "A. Absolutely" },
+      { answer: "B. About romantic, I am not sure, as there is no romance yet" },
+      { answer: "C. I am not sure" }
+    ]
+  },
+  {
+    question: "What do you admire the most about your crush?",
+    options: [
+      { answer: "A. Their presence" },
+      { answer: "B. Their personality" },
+      { answer: "C. Their friendship" }
+    ]
+  },
+  {
+    question: "The first time you interacted with your crush, you felt…",
+    options: [
+      { answer: "A. You felt an instant connection" },
+      { answer: "B. You were very nervous" },
+      { answer: "C. You were intrigued" }
+    ]
+  },
+  {
+    question: "The most romantic song that could describe you and your crush is:",
+    options: [
+      { answer: "A. Crush" },
+      { answer: "B. Can't Help Falling in Love" },
+      { answer: "C. You're Beautiful" }
+    ]
+  },
+  {
+    question: "When you imagine being with your crush, you-",
+    options: [
+      { answer: "A. Smile" },
+      { answer: "B. Wonder if they feel the same way" },
+      { answer: "C. You don't imagine it often" }
+    ]
+  },
+  {
+    question: "Would you go out of your way to make your crush happy?",
+    options: [
+      { answer: "A. 1 (strongly agree)" },
+      { answer: "B. 2" },
+      { answer: "C. 3 (strongly disagree)" }
+    ]
+  },
+  {
+    question: "Do you have some overlapping hobbies?",
+    options: [
+      { answer: "A. 1 (strongly agree)" },
+      { answer: "B. 2" },
+      { answer: "C. 3 (strongly disagree)" }
+    ]
+  }
+];
+
+export default questions;
